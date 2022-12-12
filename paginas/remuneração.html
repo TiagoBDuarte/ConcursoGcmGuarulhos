@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remuneração</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100;1,200;1,300&display=swap');
+/*
+font-family: 'Kanit', sans-serif;
+*/
+@font-face{
+    font-family: 'policeman';
+    src: url(fonts/policemen/Policemen.ttf) format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin:5px 5px 5px 5px;
+    
+}
+
+
+        header {
+            border: 3px solid rgb(252, 252, 252);
+            background-image: linear-gradient(to bottom, #1a1919, #555252);
+            color: #ffffff;
+            text-align: center;
+        }
+
+        header>h1, h1,h2,h3{
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        a{            
+            border: 3px solid #fffb00;
+            background: rgb(0, 0, 0);
+            color: white;
+            text-decoration: none;
+            margin-left: 0px;        
+        }
+
+        main{
+            width: 90%;
+            background: #ccc9c9;
+            border: 1px solid black;
+            min-height: 100px;
+            margin: auto;
+
+        }
+            
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+
+
+        }
+
+        thead,tbody,tr,td,th {
+
+            border: 1px solid black;
+
+        }
+        
+        td{
+            width: 300px;
+            text-align: center;
+        }
+
+        .positivo{
+            background: rgb(147, 147, 221);
+        }
+
+        .negativo{
+            background:red;
+            color: white;
+        }
+
+        .liquido{
+            background: greenyellow;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Remuneração</h1>
+        <a class="menu" href="../index.html">MENU</a>
+    </header>
+    <main>
+        <Article>
+            <h1>Remuneração para o Aluno no Curso de Formação</h1>
+            <p>Os valores apresentados não são de fontes oficais, mas são valores baseados com base nos benefícios
+                atuais dos servidores públicos de Guarulhos, o valores podem variar de acordo com dias trabalhados,
+                tempo de serviço, folgas, horas extras e categorias do cargo</p>
+            <h2>Valores previstos durante Curso de formação</h2>
+            <h3>Previsão para 2023</h3>
+            <table>
+                <thead>
+                    <th scope="col">Descrição</th>
+                    <th colspan="2">Valores</th>
+                </thead>
+
+                <tbody>
+                    <tr class="positivo">
+                        <td>Novo Salário Base 2023</td>
+                        <td colspan="2">R$ 2.173,63</td>
+                    </tr>
+                    <tr class="positivo">
+                        <td>Bônus</td>
+                        <td colspan="2">R$ 120,00</td>
+                    </tr>
+                    <tr class="positivo">
+                        <td>Aumento para os Servidores Jan/2023</td>
+                        <td>2%</td>
+                        <td>43,47</td>
+                    </tr>
+
+                    <tr class="negativo">
+                        <td>Desconto V.T (Opcional)</td>
+                        <td>6%</td>
+                        <td>130,42</td>
+                    </tr>
+
+                    <tr class="negativo">
+                        <td>Desconto V.A</td>
+                        <td>1%</td>
+                        <td>21,74</td>
+                    </tr>
+                    
+                    <tr class="negativo">
+                        <td>Desconto INSS</td>
+                        <td>9%</td>
+                        <td>R$ 195,63</td>
+                    </tr>
+                    <tr class="negativo">
+                    </tr>
+                    <tr class="liquido">
+                        <td>Líquido a receber</td>
+                        <td colspan="2">R$ 1.989,32</td>
+                    </tr>
+                    <tr class="liquido">
+                        <td>Vale Alimentação/Cartão Sodexo</td>
+                        <td colspan="2">R$ 1.200,00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </Article>
+    </main>
+</body>
+
+</html>

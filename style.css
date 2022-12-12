@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100;1,200;1,300&display=swap');
+/*
+font-family: 'Kanit', sans-serif;
+*/
+@font-face{
+    font-family: 'policeman';
+    src: url(fonts/policemen/Policemen.ttf) format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin:5px 5px 5px 5px;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #000000, #2b2929 );
+   
+    
+    
+}
+header{
+    width: 90vw;
+    min-height:10vw;    
+    background:black url(imagens/estrutura/sirene_header_menor.jpg) center right no-repeat ;
+    background-size: cover;
+}
+
+
+
+header > h1{
+    font-family: policeman;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 85vw;
+    min-height:5vw;
+    margin:auto;    
+    color: #ffffff;
+    display:block;
+      
+        
+}
+
+nav{
+
+    margin: auto;
+    margin-top: 5px;    
+    text-align: center;
+    display: block;    
+}
+
+.classificacao{
+
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.0rem;
+    font-style: oblique;
+    text-decoration: none;
+    color:red; 
+    width: 40%; 
+    min-height: 30%;
+    background-color:#ffffff;
+    border: 2px solid #1C154D;    
+    display:block;
+    margin:auto;
+    text-align: center;    
+}
+
+.menu{
+    text-decoration: none;    
+    background-color:#ffffff;
+    border: 2px solid #1C154D;
+    color: black;     
+    width: 30%; 
+    min-height: 30%; 
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+
+ .vagas{
+    background-image: linear-gradient(to right, #4D4DFF,#4d4dffb7,#4d4dff6e,#4d4dff3b);
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    font-size: bolder;
+    width:90%;
+    min-width:60%;
+    border-radius: 10px;   
+         
+}
+
+.vagas>h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.vagas>h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.manual{
+    background-image: linear-gradient(to right, #ffffff,#cbcbcfb7);
+    color: rgb(2, 2, 2);
+    margin: auto;
+    margin-top: 20px;
+    font-size: bolder;
+    width:90%;
+    min-width:60%;
+    border-radius: 10px;
+}
+
+.manual>h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+article > p > a{
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.enxoval{
+    background-image: linear-gradient(to right, #ffff00,#ffff90);
+    color: rgb(2, 2, 2);
+    margin: auto;
+    margin-top: 20px;
+    font-size: bolder;
+    width:90%;
+    min-width:60%;
+    border-radius: 10px;
+}
+
+.enxoval>h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.remuneração{
+    background-image: linear-gradient(to right, #00ff40,#32ff65);
+    color: rgb(2, 2, 2);
+    margin: auto;
+    margin-top: 20px;
+    font-size: bolder;
+    width:90%;
+    min-width:60%;
+    border-radius: 10px;
+}
+
+.remuneração>h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+     margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+img{
+    margin: auto;
+}
+
+/*Criar a tabeça de classificação*/

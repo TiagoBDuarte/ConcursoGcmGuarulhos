@@ -1,0 +1,9 @@
+ <a class="menu" href="#">Próxima Etapa</a>
+
+
+ <article class="enxoval">
+            <h1>Enxoval</h1>
+            <p>Indicação de lojas pelos candidatos, Vestuário, Acessórios e calçados exigidos para o curso de formação .</p>
+            <p><a href="#">Clique aqui</a>para ver mais detalhes</p>
+
+        </article>
